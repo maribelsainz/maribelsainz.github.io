@@ -8,15 +8,19 @@
   <title>Mi Portafolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Karla:400,700|PT+Serif:400,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <a class="navbar-brand" href="#"> <img src="assets/img/logo.png" alt="Logo Bel"> </a>
+        <h2 class="logo">Maribel Sainz</h2>
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -27,80 +31,84 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="text-white navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#about">Sobre mi</a>
+            <a class="nav-link" href="#about">SOBRE MI</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#work">Experiencia</a>
+            <a class="nav-link" href="#work">HABILIDADES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#work">Trabajos</a>
+            <a class="nav-link" href="#work">TRABAJO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
+            <a class="nav-link" href="#contact">CONTACTO</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Carrousel con fotos de portada -->
-  <header></header>
-  <section class="carrousel d-none d-sm-block">
-    <div class="container my-5 py-3">
-      <div class="row">
-        <div class="col-12 text-white rounded pt-4 pb-5">
-          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Fotos de portada -->
+  <header class="text-light text-right pt-5 mt-5 img-fluid">
+    <div class="container">
+      <h1 class="display-1 font-weight-bold my-5">Hola, soy Maribel.</h1>
+      <h3 class="my-2">Diseñadora de productos</h3>
+      <h3 class="my-2">Desarrolladora web</h3>
+      <!-- <a href="#work" class="btn btn-outline-info btn-lg mr-4">Trabajos</a>
+      <a href="#contact" class="btn btn-info btn-lg">Contacto</a> -->
+    </div>
+  </header>
 
-            <ol class="carousel-indicators">
-              <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#blogCarousel" data-slide-to="1"></li>
-            </ol>
+  <!-- Sobre mi -->
+  <section class="container pt-5">
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias accusantium deserunt unde temporibus quasi.
+    </h5>
 
-            <div class="carousel-inner">
+    <div class="row py-5">
+      <article class="parrafo1 col-md-6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ducimus! Beatae repellendus dolore suscipit.
+          Maiores deleniti hic corrupti in ipsa officiis nulla quia impedit, optio, dolor repellat quos quibusdam?
+          Ipsum?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero explicabo consequuntur labore? Sint quam
+          magnam assumenda eveniet voluptates tenetur ad omnis soluta cupiditate recusandae aperiam sunt optio
+          excepturi, ex animi.
+        </p>
+      </article>
 
-              <div class="carousel-item active text-center">
-                <div class="row">
-                  <div class="col-3">
-                    <img src="https://picsum.photos/1200/800?grayscale" alt="foto gris">
-                  </div>
-                </div>
-              </div>
+      <article class="parrafo2 col-md-6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ducimus! Beatae repellendus dolore suscipit.
+          Maiores deleniti hic corrupti in ipsa officiis nulla quia impedit, optio, dolor repellat quos quibusdam?
+          Ipsum?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero explicabo consequuntur labore? Sint quam
+          magnam assumenda eveniet voluptates tenetur ad omnis soluta cupiditate recusandae aperiam sunt optio
+          excepturi, ex animi.</p>
+      </article>
+    </div>
+  </section>
 
-              <div class="carousel-item text-center">
-                <div class="row">
-                  <div class="col-3">
-                    <img class="img-fluid" src="assets/img/slider-5.png" alt="">
-                  </div>
-                  <div class="col-3">
-                    <img class="img-fluid" src="assets/img/slider-6.png" alt="">
-                  </div>
-                  <div class="col-3">
-                    <img class="img-fluid" src="assets/img/slider-7.png" alt="">
-                  </div>
-                  <div class="col-3">
-                    <img class="img-fluid" src="assets/img/slider-8.png" alt="">
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
+  <!-- Experiencia o Skills -->
+  <section class="skills">
+    <h2 class="text-center">MIS HABILIDADES</h2>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <i class="fas fa-code fa-6x my-3"></i>
+        <h3 class="my-3">Código</h3>
+      </div>
+      <div class="col-md-6 text-center">
+        <i class="fas fa-paint-brush fa-6x my-3"></i>
+        <h3 class="my-3">Diseño</h3>
       </div>
     </div>
   </section>
 
-  <!-- Sobre mi -->
-  <section></section>
-
-  <!-- Experiencia -->
-  <section></section>
-
   <!-- Trabajos -->
-  <section></section>
+  <section>
+    <h2 class="text-center">MIS ÚLTIMOS TRABAJOS</h2>
+  </section>
 
   <!-- Contacto -->
-  <section></section>
+  <section>
+    <h2 class="text-center">CONTACTO</h2>
+  </section>
 
   <!-- footer con redes sociales -->
   <footer></footer>

@@ -4,7 +4,51 @@ body * {
   border: 0;
 }
 
-nav img {
-  width: 30%;
-  height: 30%;
+body {
+  font-family: 'Karla', sans-serif;
 }
+
+nav {
+  font-weight: 700;
+}
+
+header {
+  background-image: url('../img/header-compu.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 20rem;
+  font-family: 'PT Serif', serif;
+}
+
+header h1 {
+  color: rgba(92, 92, 92, 0.44);
+}
+
+header h3 {
+  /* color: #ffc340; */
+  color: #e2847c;
+
+
+}
+
+.logo {
+  font-family: 'Covered By Your Grace', cursive;
+  /* color: #ffc340; */
+  color: #6bcabb;
+}
+
+.skills {
+  /* height: 448px; */
+  background: #6bcabb;
+  color: white;
+  padding: 40px 0px 40px 0px;
+}
+
+.skills h2 {
+  font-weight: 700;
+}
+
+/* .desarrolladora {
+  padding-right: 7.5rem;
+} */
