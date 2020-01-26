@@ -49,6 +49,7 @@ header h3 {
   font-weight: 700;
 }
 
-/* .desarrolladora {
-  padding-right: 7.5rem;
-} */
+footer {
+  background: #6bcabb;
+  color: white;
+}
