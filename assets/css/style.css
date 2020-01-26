@@ -15,7 +15,7 @@ nav {
 header {
   background-image: url('../img/header-compu.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: left;
   padding-bottom: 20rem;
   font-family: 'PT Serif', serif;
@@ -23,13 +23,17 @@ header {
 
 header h1 {
   color: rgba(92, 92, 92, 0.44);
+  font-size: 96px;
+  margin-bottom: 3rem;
 }
 
 header h3 {
   /* color: #ffc340; */
-  color: #e2847c;
+  color: #dbb779;
+}
 
-
+h2 {
+  font-size: 72px;
 }
 
 .logo {
@@ -45,9 +49,9 @@ header h3 {
   padding: 40px 0px 40px 0px;
 }
 
-.skills h2 {
+/* .skills h2 {
   font-weight: 700;
-}
+} */
 
 footer {
   background: #6bcabb;
@@ -61,4 +65,79 @@ footer {
   color: #6bcabb;
   background: white;
   width: 175px;
+}
+
+/* Sección Media Queries */
+
+@media only screen and (min-width: 992px) {
+  .modal1 {
+    padding-left: 30%;
+  }
+
+  .contacto {
+    padding-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+  .modal1 {
+    padding-left: 20%;
+  }
+
+
+  header {
+    padding-bottom: 14rem;
+  }
+
+  header h1 {
+    font-size: 68px;
+  }
+
+  header h3 {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h1.font-weight-bold {
+    /* border: 1px black solid; */
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+
+  h3.my-2 {
+    font-size: 20px;
+  }
+
+  .dev {
+    padding-bottom: 75px;
+  }
+
+  header {
+    background-size: cover;
+    background-position: center;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .modal1 {
+    padding-left: 17%;
+    padding-bottom: 5%;
+  }
+
+  .modal2 {
+    padding-left: 17%;
+    padding-bottom: 5%;
+  }
+
+  article {
+    margin-bottom: 10px;
+  }
 }
