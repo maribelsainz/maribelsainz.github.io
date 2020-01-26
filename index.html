@@ -19,7 +19,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#inicio">
         <h2 class="logo">Maribel Sainz</h2>
       </a>
 
@@ -34,7 +34,7 @@
             <a class="nav-link" href="#about">SOBRE MI</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#work">HABILIDADES</a>
+            <a class="nav-link" href="#habilidades">HABILIDADES</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#work">TRABAJO</a>
@@ -48,18 +48,16 @@
   </nav>
 
   <!-- Fotos de portada -->
-  <header class="text-light text-right pt-5 mt-5 img-fluid">
+  <header class="text-light text-right pt-5 mt-5 img-fluid" id="inicio">
     <div class="container">
       <h1 class="display-1 font-weight-bold my-5">Hola, soy Maribel.</h1>
       <h3 class="my-2">Diseñadora de productos</h3>
       <h3 class="my-2">Desarrolladora web</h3>
-      <!-- <a href="#work" class="btn btn-outline-info btn-lg mr-4">Trabajos</a>
-      <a href="#contact" class="btn btn-info btn-lg">Contacto</a> -->
     </div>
   </header>
 
   <!-- Sobre mi -->
-  <section class="container pt-5">
+  <section class="container pt-5 d-none d-sm-block" id="about">
     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias accusantium deserunt unde temporibus quasi.
     </h5>
 
@@ -86,22 +84,89 @@
   </section>
 
   <!-- Experiencia o Skills -->
-  <section class="skills">
-    <h2 class="text-center">MIS HABILIDADES</h2>
-    <div class="row">
-      <div class="col-md-6 text-center">
-        <i class="fas fa-code fa-6x my-3"></i>
-        <h3 class="my-3">Código</h3>
+  <section class="skills" id="habilidades">
+    <div class="container">
+      <h2 class="text-center pb-5">MIS HABILIDADES</h2>
+
+      <div class="row">
+
+        <div class="col-md-6 modal1">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-info boton_habilidad" data-toggle="modal"
+            data-target="#modal_codigo"><i class="fas fa-code fa-6x my-3" data-toggle="tooltip" data-placement="top"
+              title="Haz clic para ver mis habilidades como Desarrolladora web"></i>
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modal_codigo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content modal-sm">
+                <div class="modal-header ">
+                  <h5 class="modal-title text-dark" id="exampleModalLabel">Habilidades Código</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-left text-dark mx-5">
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>Git</li>
+                    <li>Ruby on Rails</li>
+                    <li>PostgreSQL</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 modal2">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-info boton_habilidad" data-toggle="modal"
+            data-target="#modal_design"><i class="fas fa-paint-brush fa-6x my-3" data-toggle="tooltip"
+              data-placement="top" title="Haz clic para ver mis habilidades como Diseñadora"></i>
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modal_design" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content modal-sm">
+                <div class="modal-header ">
+                  <h5 class="modal-title text-dark" id="exampleModalLabel">Habilidades Diseño</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-left text-dark mx-5">
+                  <ul>
+                    <li>UX</li>
+                    <li>UI</li>
+                    <li>User Research</li>
+                    <li>Prototyping</li>
+                    <li>Information Arquitecture</li>
+                    <li>Personas</li>
+                    <li>Branding</li>
+                    <li>Adobe Creative Suite</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-6 text-center">
-        <i class="fas fa-paint-brush fa-6x my-3"></i>
-        <h3 class="my-3">Diseño</h3>
-      </div>
+
+    </div>
     </div>
   </section>
 
   <!-- Trabajos -->
-  <section class="container pt-5">
+  <section class="container pt-5" id="work">
 
     <h2 class="text-center pb-5">MIS ÚLTIMOS TRABAJOS</h2>
 
@@ -181,7 +246,7 @@
   </section>
 
   <!-- Contacto -->
-  <section class="container my-5">
+  <section class="container my-5" id="contact">
     <h2 class="display-3 font-weight-bold text-center my-4">CONTACTO</h2>
     <div class="typeform-widget" data-url="https://maribelsainz.typeform.com/to/o7Wssj"
       style="width: 100%; height: 500px;"></div>
