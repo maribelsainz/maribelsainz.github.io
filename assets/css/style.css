@@ -17,7 +17,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: left;
-  padding-bottom: 20rem;
+  padding-bottom: 25rem;
   font-family: 'PT Serif', serif;
 }
 
@@ -46,12 +46,8 @@ h2 {
   /* height: 448px; */
   background: #6bcabb;
   color: white;
-  padding: 40px 0px 40px 0px;
+  padding: 100px 0px 100px 0px;
 }
-
-/* .skills h2 {
-  font-weight: 700;
-} */
 
 footer {
   background: #6bcabb;
@@ -84,7 +80,6 @@ footer {
   .modal1 {
     padding-left: 20%;
   }
-
 
   header {
     padding-bottom: 14rem;
