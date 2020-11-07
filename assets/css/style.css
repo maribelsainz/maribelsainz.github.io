@@ -52,9 +52,9 @@ h2 {
   position: relative;
 }
 /* Fondo de texto para verse en varios tamaños de pantalla */
-span#text {
+/* span#text {
   background-color:#f7f7f7;
-}
+} */
 /* Fin CSS - typwwritter */
 
 .skills {
@@ -80,86 +80,6 @@ footer {
 
 .presentation {
   text-align: justify;
-}
-
-/* Sección Media Queries */
-
-@media only screen and (min-width: 992px) {
-  .modal1 {
-    padding-left: 30%;
-  }
-
-  .contacto {
-    padding-left: 30%;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-
-  .modal1 {
-    padding-left: 20%;
-  }
-
-  header {
-    padding-bottom: 14rem;
-  }
-
-  header h1 {
-    font-size: 68px;
-  }
-
-  header h3 {
-    font-size: 23px;
-  }
-
-  h2 {
-    font-size: 60px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  h1.font-weight-bold {
-    /* border: 1px black solid; */
-    font-size: 45px;
-    margin-bottom: 1rem;
-  }
-
-  h3.my-2 {
-    font-size: 20px;
-  }
-
-  .dev {
-    padding-bottom: 75px;
-  }
-
-  header {
-    background-size: cover;
-    background-position: center;
-  }
-
-  h2 {
-    font-size: 35px;
-  }
-
-  .modal1 {
-    padding-left: 17%;
-    padding-bottom: 5%;
-  }
-
-  .modal2 {
-    padding-left: 17%;
-    padding-bottom: 5%;
-  }
-
-  article {
-    margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .parrafo1 {
-    margin-bottom: 40px;
-  }
 }
 
 /* SOBRE MÍ */
@@ -193,6 +113,7 @@ p.sobremi__texto {
   font-size: 1rem;
   letter-spacing: 0.2rem;
   margin: 20px 0px;
+  text-align: justify;
 }
 
 .fondotexto {
@@ -208,7 +129,7 @@ p.sobremi__texto {
 }
 
 .button_cv {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   justify-content: center;
   box-shadow: 5px 10px 20px #888888;
@@ -279,8 +200,6 @@ p.sobremi__texto {
   width: 40px;
 }
 
-/* ------------------------------------------ */
-
 /* SKILLS */
 .iconex {
   padding: 40px 30px;
@@ -290,6 +209,113 @@ p.sobremi__texto {
   text-align: center;
   padding: 30px 0px 60px 0px;
 }
+
+/* Sección Media Queries */
+
+@media only screen and (min-width: 768px) {
+  .trabajos__texto{
+    padding: 4rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p.sobremi__texto{
+  text-align: left;
+  word-spacing: 0.4rem;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+
+  .modal1 {
+    padding-left: 20%;
+  }
+
+  header {
+    padding-bottom: 14rem;
+  }
+
+  header h1 {
+    font-size: 68px;
+  }
+
+  header h3 {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h1.font-weight-bold {
+    /* border: 1px black solid; */
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+
+  h3.my-2 {
+    font-size: 20px;
+  }
+
+  .dev {
+    padding-bottom: 75px;
+  }
+
+  header {
+    background-size: cover;
+    background-position: center;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  /* .modal1 {
+    padding-left: 17%;
+    padding-bottom: 5%;
+  }
+
+  .modal2 {
+    padding-left: 17%;
+    padding-bottom: 5%;
+  } */
+
+  article {
+    margin-bottom: 10px;
+  }
+
+  .console-container{
+  padding-bottom: 9rem;
+  font-size: 24px;
+  }
+
+  .header__texto-principal{
+    padding-bottom: 3rem;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .parrafo1 {
+    margin-bottom: 40px;
+  }
+  .trabajos__texto{
+    padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  header {
+    margin-top: 50rem ;
+
+  }
+
+}
+
+
 
 /* @media only screen and (min-width: 768px and max-width: 991px){
   .button_cv_texto {
