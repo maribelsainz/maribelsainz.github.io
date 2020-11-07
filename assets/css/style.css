@@ -42,6 +42,21 @@ h2 {
   color: #6bcabb;
 }
 
+/* CSS - typwwritter */
+.console-container {
+  font-size: 2em;
+  text-align: right;
+}
+.console-underscore {
+  display: inline-block;
+  position: relative;
+}
+/* Fondo de texto para verse en varios tamaños de pantalla */
+span#text {
+  background-color:#f7f7f7;
+}
+/* Fin CSS - typwwritter */
+
 .skills {
   /* height: 448px; */
   background: #6bcabb;
@@ -61,6 +76,10 @@ footer {
   color: #6bcabb;
   background: white;
   width: 175px;
+}
+
+.presentation {
+  text-align: justify;
 }
 
 /* Sección Media Queries */
@@ -136,3 +155,144 @@ footer {
     margin-bottom: 10px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .parrafo1 {
+    margin-bottom: 40px;
+  }
+}
+
+/* SOBRE MÍ */
+
+.sobremi {
+  background-color: #b9f6ee;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.sobremi_content {
+  background-color: #dbb779 !important;
+  color: #fff;
+  padding: 30px 50px;
+  text-align: left;
+}
+
+.sobremift {
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+}
+
+.bg-polaroid {
+  background-color: #b9f6ee !important;
+}
+
+p.sobremi__texto {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  margin: 20px 0px;
+}
+
+.fondotexto {
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 0.90rem;
+  text-align: left;
+}
+
+.button_cv_content {
+  display: flex;
+  justify-content: center;
+}
+
+.button_cv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 10px 20px #888888;
+}
+.button_cv a {
+  text-decoration: none;
+  color: white !important;
+  font-size: 1.3rem;
+}
+
+.btn-secondary {
+  background-color: #d69c37 !important;
+  color: #ffffff !important;
+  border-radius: 0% !important;
+  margin-bottom: 20px;
+  text-decoration: none;
+  height: 3rem;
+  border-color: #d69c37;
+}
+
+.btn:hover {
+  background-color: #bafdef !important;
+}
+
+.card {
+  border-radius: 0%;
+}
+
+.card-img-top {
+  border-radius: 0%;
+}
+
+.card-title {
+  color: #6bcabb;
+  font-weight: 700;
+  text-align: left;
+}
+
+.card-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.card-polaroid {
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  margin: 50px;
+  box-shadow: 15px 15px 0px rgba(92, 92, 92, 0.44);
+}
+
+.card-title {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-text {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+.icon-polaroid {
+  color: rgba(92, 92, 92, 0.44);
+  height: 40px;
+  width: 40px;
+}
+
+/* ------------------------------------------ */
+
+/* SKILLS */
+.iconex {
+  padding: 40px 30px;
+}
+
+.skills {
+  text-align: center;
+  padding: 30px 0px 60px 0px;
+}
+
+/* @media only screen and (min-width: 768px and max-width: 991px){
+  .button_cv_texto {
+    font-size: 1.1rem;
+  }
+} */

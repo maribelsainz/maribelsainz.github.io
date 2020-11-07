@@ -31,13 +31,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="text-white navbar-nav ml-auto">
           <li class="nav-item">
+            <a class="nav-link" href="#work">TRABAJO</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#about">SOBRE MI</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#habilidades">HABILIDADES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work">TRABAJO</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">CONTACTO</a>
@@ -51,125 +51,18 @@
   <header class="text-light text-right pt-5 mt-5 img-fluid" id="inicio">
     <div class="container ">
       <h1 class="font-weight-bold">Hola, soy Maribel.</h1>
-      <h3 class="my-2">Diseñadora de productos</h3>
-      <h3 class="my-2 dev">Desarrolladora web</h3>
+      <div class='console-container'><span id='text'></span>
+        <div class='console-underscore' id='console'>&#95;</div>
+      </div>
     </div>
   </header>
-
-  <!-- Sobre mi -->
-  <section class="container mt-5 pt-5 d-none d-sm-block" id="about">
-    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias accusantium deserunt unde temporibus quasi.
-    </h5>
-
-    <div class="row mb-5 py-5">
-      <article class="parrafo1 col-md-6">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ducimus! Beatae repellendus dolore suscipit.
-          Maiores deleniti hic corrupti in ipsa officiis nulla quia impedit, optio, dolor repellat quos quibusdam?
-          Ipsum?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero explicabo consequuntur labore? Sint quam
-          magnam assumenda eveniet voluptates tenetur ad omnis soluta cupiditate recusandae aperiam sunt optio
-          excepturi, ex animi.
-        </p>
-      </article>
-
-      <article class="parrafo2 col-md-6">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ducimus! Beatae repellendus dolore suscipit.
-          Maiores deleniti hic corrupti in ipsa officiis nulla quia impedit, optio, dolor repellat quos quibusdam?
-          Ipsum?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero explicabo consequuntur labore? Sint quam
-          magnam assumenda eveniet voluptates tenetur ad omnis soluta cupiditate recusandae aperiam sunt optio
-          excepturi, ex animi.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- Experiencia o Skills -->
-  <section class="skills" id="habilidades">
-    <div class="container">
-      <h2 class="font-weight-bold text-center py-5">MIS HABILIDADES</h2>
-
-      <div class="row pb-5">
-
-        <div class="col-md-6 modal1">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-outline-info boton_habilidad" data-toggle="modal"
-            data-target="#modal_codigo"><i class="fas fa-code fa-6x my-3" data-toggle="tooltip" data-placement="bottom"
-              title="Haz clic para ver mis habilidades como Desarrolladora web"></i>
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="modal_codigo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content modal-sm">
-                <div class="modal-header ">
-                  <h5 class="modal-title text-dark" id="exampleModalLabel">Habilidades Código</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-left text-dark mx-5">
-                  <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>Bootstrap</li>
-                    <li>Git</li>
-                    <li>Ruby on Rails</li>
-                    <li>PostgreSQL</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 modal2">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-outline-info boton_habilidad" data-toggle="modal"
-            data-target="#modal_design"><i class="fas fa-paint-brush fa-6x my-3" data-toggle="tooltip"
-              data-placement="bottom" title="Haz clic para ver mis habilidades como Diseñadora"></i>
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="modal_design" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content modal-sm">
-                <div class="modal-header ">
-                  <h5 class="modal-title text-dark" id="exampleModalLabel">Habilidades Diseño</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-left text-dark mx-5">
-                  <ul>
-                    <li>UX</li>
-                    <li>UI</li>
-                    <li>User Research</li>
-                    <li>Prototyping</li>
-                    <li>Information Arquitecture</li>
-                    <li>Personas</li>
-                    <li>Branding</li>
-                    <li>Adobe Creative Suite</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    </div>
-  </section>
 
   <!-- Trabajos -->
   <section class="container pt-5" id="work">
 
     <h2 class="font-weight-bold text-center py-5">MIS ÚLTIMOS TRABAJOS</h2>
 
+    <!-- Fila 1 cards -->
     <div class="row">
 
       <article class="col-md-4">
@@ -198,19 +91,19 @@
 
       <article class="col-md-4">
         <div class="card">
-          <a href="https://maribelsainz.github.io/houtel/"><img src="assets/img/houtel.png" class="card-img-top"
-              alt="houtel"></a>
+          <a href="https://maribelsainz.github.io/ricomida/"><img src="assets/img/ricomida.png" class="card-img-top"
+              alt="Ricomida"></a>
           <div class="card-body">
-            <h5 class="card-title">Houtel</h5>
-            <p class="card-text">Houtel es una maqueta del home de un sitio web de hotelería, el cual
-              funciona como un buscador de alojamiento.</p>
+            <h5 class="card-title">Ricomida</h5>
+            <p class="card-text">El proyecto Ricomida es el home de un sitio web de recetas.</p>
           </div>
         </div>
       </article>
 
     </div>
 
-    <div class="row pt-5 pb-5">
+    <!-- Fila 2 cards -->
+    <div class="row pt-5">
 
       <article class="col-md-4">
         <div class="card">
@@ -219,17 +112,6 @@
           <div class="card-body">
             <h5 class="card-title">Trekk-in App</h5>
             <p class="card-text">El proyecto Trekk-in es el landing page de una applicación para hacer trekking.</p>
-          </div>
-        </div>
-      </article>
-
-      <article class="col-md-4">
-        <div class="card">
-          <a href="https://maribelsainz.github.io/ricomida/"><img src="assets/img/ricomida.png" class="card-img-top"
-              alt="Ricomida"></a>
-          <div class="card-body">
-            <h5 class="card-title">Ricomida</h5>
-            <p class="card-text">El proyecto Ricomida es el home de un sitio web de recetas.</p>
           </div>
         </div>
       </article>
@@ -258,9 +140,151 @@
       </article>
 
     </div>
+
+    <!-- Fila 3 cards -->
+    <div class="row pt-5 pb-5">
+
+      <article class="col-md-4">
+        <div class="card">
+          <a href="https://proy-final-dl.web.app/"><img src="assets/img/tengo_hambre.png" class="card-img-top"
+              alt="Tengo.Hambre"></a>
+          <div class="card-body">
+            <h5 class="card-title">Tengo.Hambre</h5>
+            <p class="card-text">Es un buscador de recetas que permite registrarse, loguearse y guardar las recetas favoritas.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-md-4">
+        <!-- <div class="card">
+          <a href="https://agile-garden-12751.herokuapp.com/users/sign_in"><img src="assets/img/piscolapp.png"
+              class="card-img-top" alt="Piscolapp"></a>
+          <div class="card-body">
+            <h5 class="card-title">Piscolapp</h5>
+            <p class="card-text">El proyecto piscolapp es una applicación web cuyo objetivo es comprar productos
+              bebestibles en una fiesta desde el celular.</p>
+          </div>
+        </div> -->
+      </article>
+
+      <article class="col-md-4">
+        <!-- <div class="card">
+          <a href="https://maribelsainz.github.io/GithubJobs/"><img src="assets/img/github_jobs.png"
+              class="card-img-top" alt="GitHub Jobs"></a>
+          <div class="card-body">
+            <h5 class="card-title">GitHub Jobs</h5>
+            <p class="card-text">El proyecto GitHub Jobs es un buscador de trabajo que utiliza GitHub Jobs API.</p>
+          </div>
+        </div> -->
+      </article>
+
+    </div>
   </section>
 
-  <!-- Contacto -->
+  <!-- ABOUT ME -->
+  <section id="about" class="sobremi">
+    <div class="container">
+        <div class="row text-center">
+
+            <div class="col-md-7 bg-warning sobremi_content">
+                <h2 class="font-weight-bold p-4 text-center">SOBRE MI</h2>
+
+                <p class="text-justify mb-3 sobremi__texto">Mi nombre es Maribel, actualmente me desempeño como <span style="font-weight: bold;">diseñadora y desarrolladora Front End</span>,  en busca de ir mejorando la usabilidad y experiencia de usuario con el desarrollo  de interfaces  digitales.  Soy diseñadora Industrial de profesión  y  quise dar un giro  desde los  productos  físicos  a  los  digitales  para  crear  de  una  manera  ágil  puentes  comunicativos entre personas y servicios.
+
+                <p class="text-justify mb-3 sobremi__texto">Me apasiona conocer nuevas realidades y viajar, por esta razón cuando estaba en el pregrado hice una pasantía de un semestre en  la  Università  di Bologna,  además expuse en un póster los resultados de mi investigación de título en el simposio del color de Munsell, en   el   Massachusetts   College   of   Art and  Design.   Creo en el trabajo colaborativo, me caracteriza el  trabajo en equipo, mi adaptabilidad a nuevos grupos, estudiar y trabajar persistentemente   para  perfeccionarme como profesional.
+                </p>
+
+                <p class="text-justify mb-3 sobremi__texto">En mi tiempo libre me gusta hacer ver series, andar en bicicleta y hacer trekking.
+                </p>
+
+                <div class="button_cv_content">
+                    <button class="btn btn-secondary button_cv "><a class="button_cv_texto " href="assets/pdf/CV Maribel Sainz.pdf">Descarga mi CV</a></button>
+                </div>
+            </div>
+
+            <div class="col-md-5 bg-primary bg-polaroid">
+
+  <!-- CARD MI FOTO -->
+              <div class="container">
+                  <div class="card-polaroid informacion">
+
+                      <div class="view overlay ">
+                          <img class="card-img-top img-fluid" src="assets/img/Bel_card.jpg" alt="Foto Maribel">
+                      </div>
+                      <div class="card-body">
+                          <h4 class="card-title text-center">Maribel Sainz</h4>
+                          <p class="card-text text-center">FRONT-END DEVELOPER<br>DESIGNER</p>
+                          <p><i class="fas fa-map-marker-alt"></i> Santiago, Chile.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+        </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES/SKILLS -->
+  <section id="habilidades" class="skills">
+    <h2 class="font-weight-bold text-center py-5">MIS HABILIDADES</h2>
+    <img src="assets/img/icons/iconphotoshop.png" class="iconex" class="iconex" data-toggle="tooltip"
+        data-placement="bottom" title="Adobe Photoshop">
+
+    <img src="assets/img/icons/iconillustrator.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Adobe Illustrator">
+
+    <img src="assets/img/icons/iconxd.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Adobe Xd">
+
+    <img src="assets/img/icons/iconhtml.png" class="iconex" data-toggle="tooltip" data-placement="bottom" title="HTML 5">
+
+    <img src="assets/img/icons/iconcss.png" class="iconex" data-toggle="tooltip" data-placement="bottom" title="CSS 3">
+
+    <img src="assets/img/icons/iconsass.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Sass">
+
+    <img src="assets/img/icons/iconbootstrap.png" class="iconex" data-toggle="tooltip" data-placement="bottom" title="Bootstrap">
+
+    <img src="assets/img/icons/iconjs.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="JavaScript ES6+">
+
+    <img src="assets/img/icons/iconvuejs.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="VueJS">
+
+    <img src="assets/img/icons/iconvuex.png" class="iconex" data-toggle="tooltip" data-placement="bottom" title="Vuex">
+
+    <img src="assets/img/icons/iconbootstrapvue.png" class="iconex" data-toggle="tooltip" data-placement="bottom" title="Bootstrap-Vue">
+
+    <img src="assets/img/icons/icongit.png" class="iconex" data-toggle="tooltip" data-placement="bottom" title="Git">
+
+    <img src="assets/img/icons/icongithub.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Github">
+
+    <img src="assets/img/icons/iconnpm.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="NPM">
+
+    <img src="assets/img/icons/iconyarn.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Yarn">
+
+    <img src="assets/img/icons/iconfirebase.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Firebase">
+
+    <img src="assets/img/icons/icontrello.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Trello">
+
+    <img src="assets/img/icons/iconjira.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Jira">
+
+    <img src="assets/img/icons/iconconfluence.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Confluence">
+
+    <img src="assets/img/icons/iconslack.png" class="iconex" data-toggle="tooltip" data-placement="bottom"
+        title="Slack">
+
+  </section>
+
+
+  <!-- CONTACTO -->
   <section class="container pt-2 my-5" id="contact">
     <h2 class="font-weight-bold text-center mt-4">CONTACTO</h2>
     <div class="typeform-widget contacto" data-url="https://maribelsainz.typeform.com/to/o7Wssj"
@@ -288,11 +312,12 @@
     </div>
   </section>
 
-  <!-- footer con redes sociales -->
+  <!-- FOOTER CON REDES SOCIALES -->
   <footer class="text-center p-3">
     <a href="https://github.com/maribelsainz"><i class="fab fa-github-square fa-5x text-light"></i></a>
     <a href="https://twitter.com/MaribelSainz"><i class="fab fa-twitter-square fa-5x text-light"></i></a>
     <a href="https://www.linkedin.com/in/maribelsainz/"><i class="fab fa-linkedin fa-5x text-light"></i></a>
+    <a href="mailto:maribel.sainzc@gmail.com"><i class="fas fa-envelope-square fa-5x text-light"></i></a>
     <p>Maribel Sainz 2020. Todos los derechos reservados.</p>
   </footer>
 
@@ -324,6 +349,7 @@
 
   <!--Mi script-->
   <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
