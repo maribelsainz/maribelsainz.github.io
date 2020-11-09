@@ -45,6 +45,8 @@ h2 {
 /* CSS - typwwritter */
 .console-container {
   font-size: 2em;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 700;
   text-align: right;
 }
 .console-underscore {
@@ -56,6 +58,14 @@ h2 {
   background-color:#f7f7f7;
 } */
 /* Fin CSS - typwwritter */
+
+.trabajos__texto{
+  color: #4b4a4a;
+}
+
+.contacto__titulo{
+  color: #4b4a4a;
+}
 
 .skills {
   /* height: 448px; */
@@ -80,6 +90,12 @@ footer {
 
 .presentation {
   text-align: justify;
+}
+
+p.card__mifoto{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #4b4a4a;
 }
 
 /* SOBRE MÍ */
@@ -227,10 +243,6 @@ p.sobremi__texto {
 
 
 @media only screen and (max-width: 991px) {
-
-  .modal1 {
-    padding-left: 20%;
-  }
 
   header {
     padding-bottom: 14rem;

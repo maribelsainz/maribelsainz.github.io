@@ -1,6 +1,8 @@
 // function([string1, string2],target id,[color1,color2])
 consoleText(['Diseñadora de Productos', 'Desarrolladora Front-End'], 'text',['#dbb779','#d87a7b']);
 
+// consoleText(['DISEÑADORA DE PRODUCTOS', 'DESARROLLADORA FRONT-END'], 'text',['#dbb779','#d87a7b']);
+
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
   let visible = true;
