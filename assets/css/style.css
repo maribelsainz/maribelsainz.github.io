@@ -53,7 +53,7 @@ h2 {
   display: inline-block;
   position: relative;
 }
-/* Fondo de texto para verse en varios tamaños de pantalla */
+
 span#text {
   font-family: 'Russo One', sans-serif;
 }
@@ -68,7 +68,6 @@ span#text {
 }
 
 .skills {
-  /* height: 448px; */
   background: #6bcabb;
   color: white;
   padding: 100px 0px 100px 0px;
@@ -145,7 +144,6 @@ p.sobremi__texto {
 }
 
 .button_cv {
-  /* width: 50%; */
   display: flex;
   justify-content: center;
   box-shadow: 5px 10px 20px #888888;
@@ -241,7 +239,6 @@ p.sobremi__texto {
   }
 }
 
-
 @media only screen and (max-width: 991px) {
 
   header {
@@ -263,7 +260,6 @@ p.sobremi__texto {
 
 @media only screen and (max-width: 576px) {
   h1.font-weight-bold {
-    /* border: 1px black solid; */
     font-size: 45px;
     margin-bottom: 1rem;
   }
@@ -284,16 +280,6 @@ p.sobremi__texto {
   h2 {
     font-size: 35px;
   }
-
-  /* .modal1 {
-    padding-left: 17%;
-    padding-bottom: 5%;
-  }
-
-  .modal2 {
-    padding-left: 17%;
-    padding-bottom: 5%;
-  } */
 
   article {
     margin-bottom: 10px;
@@ -329,8 +315,3 @@ p.sobremi__texto {
 
 
 
-/* @media only screen and (min-width: 768px and max-width: 991px){
-  .button_cv_texto {
-    font-size: 1.1rem;
-  }
-} */
